@@ -10,6 +10,9 @@ Quick Start:
    All necessary code is in the Main Cell at the bottom of the notebook. 
 
 Best K?
-  Most of the K's return an accuracy of 90-100 consistently. The range of K's that most often return the best accuracy are within the range of 8-12    returning around 95-97% accuracy with few outliers. This is most likely because in the amount of data present this is the amount that gives enough context to accurately perform a classification without overfitting the data. 
+  Most of the K's return an accuracy of 90-100 consistently. The range of K's that most often return the best accuracy are within the range of 7-12    returning around 95-97% accuracy with few outliers. This is most likely because in the amount of data present this is the amount that gives enough context to accurately perform a classification without overfitting the data. 
 
-![]{Accuracies1to20.png}
+![](Accuracies1to20.png)
+
+The above line chart is an example of one iteration the classification. This is one of the iterations where k=7 is the highest accuracy. 
+This graph is obviously jagged indicative of inconsistency across accuracies as k increases. Ideally this is solved by adding even more data. 
